@@ -18,10 +18,9 @@ var success  = false;
 // if(name && name.replace(/\s+/g,'') && name.length > 3) {
   if(name && name.split(' ').length-1 == 0 && name.length > 3) {
   success = true;
-}
-else{
-  success = false;
-}
+} else {
+    success = false;
+  }
 return success;
 }
 
