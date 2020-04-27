@@ -4,4 +4,12 @@
  * @returns {Boolean}
  */
 function isEmpty(obj) {
-}
+    if (Object.keys(obj).length === 0){
+      return true;
+    } else {
+      return false;
+    }
+  }
+
+var schedule = {prop : 'yuruma'};
+isEmpty(schedule);
